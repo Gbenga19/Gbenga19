@@ -23,7 +23,7 @@ image{
 }
 
 .background-image1{
-    background-image: url(img/last.png);
+    background-image: url("img/last.png");
     background: no-repeat;
 }
 .bottom-right{
