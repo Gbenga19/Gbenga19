@@ -4,13 +4,13 @@ body{font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
     background-color: rgb(13, 28, 95);
     border-top: 0px;
     padding:0;
-    text align:center;
+    
     
     
     
 }
 
-#image{
+.image{
     background-image: url("piggyvest-logo.0b78a8fa (1).svg");
     background: no-repeat;
 
@@ -22,7 +22,7 @@ body{font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
     padding: 0;
 }
 
-#background-image1{
+.background-image1{
     background-image: url("last.png");
     background: no-repeat;
 }
@@ -32,7 +32,7 @@ body{font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
     right: 0px;   
 }
 
-#background-image2{
+.background-image2{
     background-image: url("3.png");
     background: no-repeat;
 }
@@ -43,7 +43,7 @@ body{font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
     
 }
 
-#background-image3{
+.background-image3{
     background-image: url("1.png");
     background: no-repeat;
 }
@@ -53,7 +53,7 @@ body{font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
     left: 0px;
 }
 
-#background-image4{
+.background-image4{
     background-image: url("2.png");
     background: no-repeat;
 }
