@@ -84,7 +84,7 @@ p {color:black;
 }
  .container{
 border-radius:0px;
-padding: 30px
+padding: 30px 30px 30px 30px; 
 background-color:grey;
 margin-left: auto;
 margin-right: auto;
@@ -92,7 +92,7 @@ width:35%;
 font-size:10px;
 display:block;
 margin-top:auto;
-border-width:5px;
+border-width:3px;
 border-style:solid;
 border-color:black;
 }
