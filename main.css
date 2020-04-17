@@ -59,6 +59,7 @@ p {color:black;
     padding-left: 20px;
     padding-right: 20px;
     font-size: 20px;
+    padding-bottom:10px;
 }
 #description h3{
     color: rgb(182, 14, 22);
@@ -73,7 +74,7 @@ p {color:black;
     font-size: 15px;
     margin-left: auto;
     margin-right: auto;  
-    padding:15px;
+    padding:10px;
     
 
 
@@ -82,17 +83,16 @@ p {color:black;
     
 }
  .container{
-border-radius:20px;
-padding: 20px
+border-radius:0px;
+padding: 30px
 background-color:grey;
 margin-left: auto;
 margin-right: auto;
-width:30%;
+width:35%;
 font-size:10px;
 display:block;
 margin-top:auto;
-box-sizing:border-box
-border-width:3px;
+border-width:5px;
 border-style:solid;
 border-color:black;
 }
