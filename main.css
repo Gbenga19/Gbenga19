@@ -65,15 +65,15 @@ p {color: rgb(238, 223, 16);
 }
 
 }
-contact{
+#contact{
     text-align: center;
     color: rgba(3, 1, 7, 0.925);
     font-size: 15px;
-    margin-left: 100%;
-    margin-right: 100%;  
+    margin-left: 50%;
+    margin-right: 50%;  
     border-style: solid;
     border-color: rgb(231, 48, 149);
-    padding: 15px;
+    
 
     
 }
