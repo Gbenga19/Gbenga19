@@ -15,11 +15,12 @@
     border-width: 10px;
 }
  #showcase p{
+color:blue
     
 }
 #showcase h1{
     padding-top: 30px;
-    
+    color:blue
 }
 
 .right{
@@ -42,7 +43,7 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 #biodata
-p {color: rgb(238, 223, 16);
+p {color:black;
     
     font-size: 20px;
     border-style: solid;
