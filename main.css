@@ -73,6 +73,7 @@ p {color: rgb(238, 223, 16);
     margin-right: auto;  
     border-style: solid;
     border-color: rgb(231, 48, 149);
+    padding:15px;
     
 
     
@@ -84,9 +85,9 @@ text-align: center;
 }
 #contact input  
 {
- width: 100%;  
+ width: 50%;  
  padding: 5px; 
- color: #000;
+ color: gray;
  height: 50%;
 }
 label{
