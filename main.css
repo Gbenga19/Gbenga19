@@ -90,6 +90,13 @@ text-align: center;
  color: gray;
  height: 50%;
 }
+textarea{
+ font-size:10px
+ width: 50%;  
+ padding: 5px; 
+ color: gray;
+ height: 100%;
+}
 label{
     color: rgb(26, 5, 5);
     font-size: 15px;
