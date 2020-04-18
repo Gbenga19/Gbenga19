@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JAVASCRIPT TASK 3</title>
+</head>
+<body>
+    <script>
+        function divisible(wholeNumber) {
+            let newNumber=[];
+            for(let i=1; i<=wholeNumber; i++) {
+            
+            if((i%2)===0 && (i%3)===0 && (i%5)===0){
+                    newNumber.push("yu-gi-oh");
+            }
+            else if((i%2)===0 && (i%3)===0){
+                newNumber.push("yu-gi");
+            }
+            else if((i%2)===0 && (i%5)===0){
+                newNumber.push("yu-oh");
+            }
+            else if((i%3)===0 && (i%5)===0){
+                newNumber.push("gi-oh");
+            }
+            else if((i%2)===0){
+                    newNumber.push("yu");
+            } 
+            else if((i%3)===0){
+                    newNumber.push("gi");
+            }
+            else if((i%5)===0){
+                newNumber.push("oh");
+            } 
+            else{
+                newNumber.push(i);
+
+                
+            }
+            }
+            console.log(newNumber);
+
+            return newNumber;
+        }
+
+        (divisible(100));
+
+        (divisible(30));
+        
+      
+        </script>
+</body>
+</html>
