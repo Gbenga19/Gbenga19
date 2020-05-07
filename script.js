@@ -66,21 +66,43 @@ var op4=document.getElementById('op4');
                 else{
                     ele.className="wrong";
 
-                    ele.className="correct";
+                    
                 }
                 
           },
           notClickAble:function(){
             for(let i=0;i<ul.children.length;i++){
                 ul.children[i].style.pointerEvents ="none";
+               if (id[id.length-1]==this.questions[this.index].answer){
+                    
+                    ele.className="correct";
+                    
+                    
+                }
                 
+                else{
+                    ele.className="wrong";
+
+                    
+                } 
             }
           },
           clickAble:function(){
             for(let i=0;i<ul.children.length;i++){
                 ul.children[i].style.pointerEvents ="auto";
                 ul.children[i].className="";
-                            
+                 if (id[id.length-1]==this.questions[this.index].answer){
+                    
+                    ele.className="correct";
+                    
+                    
+                }
+                
+                else{
+                    ele.className="wrong";
+
+                    
+                }           
             }
 
           },
