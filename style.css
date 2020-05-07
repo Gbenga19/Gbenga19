@@ -65,8 +65,10 @@ h1{
     box-shadow: 3px 3px 0px grey;
 }
 
-    .wrong{
+   li .wrong{
         background-color: red;}
+li .correct{
+        background-color:rgb(14, 247, 14);}
 
 .quiz_wrapper .options ul li.wrong{
     background-color: red;
