@@ -65,7 +65,8 @@ var op4=document.getElementById('op4');
                 
                 else{
                     ele.className="wrong";
-                    
+
+                    ele.className="correct";
                 }
                 
           },
