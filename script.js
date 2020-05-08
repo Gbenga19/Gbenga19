@@ -73,7 +73,7 @@ var op4=document.getElementById('op4');
           notClickAble:function(){
             for(let i=0;i<ul.children.length;i++){
                 ul.children[i].style.pointerEvents ="none";
-               if(ul.children[i].id.split("")[2]==this.questions[this.index].answer){ul.children[i].style.backgroundColor="green;
+               if(ul.children[i].id.split("")[2]==this.questions[this.index].answer){ul.children[i].style.backgroundColor="green";
                }
                     
                     
@@ -84,7 +84,7 @@ var op4=document.getElementById('op4');
           clickAble:function(){
             for(let i=0;i<ul.children.length;i++){
                 ul.children[i].style.pointerEvents ="auto";
-                ul.children[i].removeAttribute("class");
+                ul.children[i].removeAttribute("class")
                 ul.children[i].style.backgroundColor="";
                 
                     
